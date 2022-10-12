@@ -22,7 +22,7 @@
     ```
 1. Install the UUID OSSP Contrib Module for PostgreSQL
     ```
-    docker-compose exec postgres psql -U postgres buddy
+    docker-compose exec postgres psql -U postgres go_example_db
     CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
     exit
     ```
